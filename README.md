@@ -1,5 +1,5 @@
 # SentimentAnalysis
-Sentiment Analysis based on twitter tweets.
+Sentiment Analysis based on tweets.
 
 Tweet data collected in the dataset is analysed and cleaned.
 Tweets getd arranged in the csv file tweet-data.csv in such a way that 
