@@ -142,16 +142,6 @@ totalTrainTime = 0
 totalPredictTime = 0
 
 for i in loopData:
-    #   for j in loopData:
-    #     if time_linear_train[i] < time_linear_train[j]:
-    #       minTimeOfLinearTrain = time_linear_train[i]
-    #     else:
-    #       minTimeOfLinearTrain = time_linear_train[j]
-
-    #     if time_linear_predict[i] < time_linear_predict[j]:
-    #       minTimeOfLinearPredict = time_linear_predict[i]
-    #     else:
-    #       minTimeOfLinearPredict = time_linear_predict[j]
     totalTrainTime = totalTrainTime + time_linear_train[i]
     totalPredictTime = totalPredictTime + time_linear_predict[i]
 
